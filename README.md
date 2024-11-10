@@ -11,7 +11,7 @@ Your RootCA ----signs----> Client Cert ----presents----> API Gateway
                     Server Authentication
 System CAs  ----signs----> AWS Cert <----presents---- API Gateway
 (including     |
-HDB's CA)      |
+Server's CA)      |
                |
 Client ----verifies---- AWS Cert
 using system CAs
