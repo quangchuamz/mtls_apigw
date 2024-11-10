@@ -1,0 +1,15 @@
+# ignore all files in certs directory
+certs/*
+
+# ignore all files in hdbcerts directory
+hdbcerts/*
+
+# ignore all files in .terraform directory
+.terraform/*
+
+# ignore all files in .aws-sam directory
+.aws-sam/*
+
+# ignore tfstate files
+*.tfstate
+*.tfstate.*
